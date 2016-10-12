@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #dbd6cf;
+}
+
 h1 {
   font-family: 'Bevan', cursive;
   color: #fff;
@@ -27,7 +31,7 @@ ul {
   margin: inherit;
   background-color: #713837;
   border-radius: 5px;
-  list
+  line-height: 1.5;
 }
 
 a {
@@ -48,7 +52,7 @@ li:hover {
   margin: inherit;
   background-color: #713837;
   border-radius: 5px;
-  list
+  line-height: 1.5;
 }
 
 .c {
@@ -58,7 +62,7 @@ li:hover {
   margin: inherit;
   background-color: #713837;
   border-radius: 5px;
-  list
+  line-height: 1.5;
 }
 
 .d {
@@ -68,5 +72,5 @@ li:hover {
   margin: inherit;
   background-color: #713837;
   border-radius: 5px;
-  list
+  line-height: 1.5;
 }
