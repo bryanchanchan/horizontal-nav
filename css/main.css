@@ -8,20 +8,23 @@ html {
 
 body {
   background-color: #dbd6cf;
+  margin: inherit;
 }
 
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", cursive;
   color: #fff;
   background-color: #79756f;
-  padding: .6em .5em 4em;
+  padding: .6em .5em 3em;
   margin: inherit;
   text-align: center;
   border: 3px solid #595652;
+  line-height: 1;
 }
 
 ul {
   text-align: center;
+  margin-top: -80px;
 }
 
 .a {
@@ -32,19 +35,24 @@ ul {
   background-color: #713837;
   border-radius: 5px;
   line-height: 1.5;
+  list-style-type: none;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   font-family: sans-serif;
+}
 
+a:hover {
+  color: #fff;
+  background-color: #f33;
 }
 
 li:hover {
   background-color: #f33;
-  color: #fff;
 }
+
 .b {
   display: inline-block;
   padding: inherit;
