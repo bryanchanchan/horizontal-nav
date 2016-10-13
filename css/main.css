@@ -8,11 +8,11 @@ html {
 
 body {
   background-color: #dbd6cf;
-  margin: inherit;
+  margin: 0;
 }
 
 h1 {
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", serif;
   color: #fff;
   background-color: #79756f;
   padding: .6em .5em 3em;
